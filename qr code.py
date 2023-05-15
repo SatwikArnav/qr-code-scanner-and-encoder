@@ -6,7 +6,8 @@ import tkinter as tk
 from tkinter import *
 import PIL.Image
 
-
+window = Tk()  
+window.geometry('300x350')
 window.title('Python Calculator')
 
 Label(window,text='Lets Create QR Code',font='arial 15').pack()
